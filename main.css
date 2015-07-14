@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 9px Verdana, sans-serif;
+}
+
+#page {
+    width: 770px;
+    background: url("img/main-background.jpg") no-repeat;
+    margin: 0 auto;
+}
+
+header {
+    position: relative;
+}
+
+.company {
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 128px;
+}
+
+.slogan {
+    font-size: 10px;
+    color: #666;
+}
+
+.top-menu {
+    list-style: none;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: right;
+    padding: 0;
+}
+
+.top-menu li {
+    display: inline-block;
+}
+
+.top-menu li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.top-menu-extra {
+    list-style: none;
+    font-weight: bold;
+    line-height: 20px;
+    color: #c00;
+    text-align: right;
+    padding: 0;
+}
+
+.top-menu-extra li {
+    display: inline-block;
+}
+
+.top-menu-extra li a {
+    color: #000;
+    text-decoration: none;
+}
+
+#main {
+    margin-top: 250px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 12px;
+}
+
+h4 {
+    color: #c33;
+}
+
+footer ul {
+    background: url("img/footer-background.gif") no-repeat;
+    list-style: none;
+    font-weight: bold;
+    line-height: 25px;
+    text-align: center;
+    padding: 0;
+    height: 40px;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.copyright {
+    text-align: center;
+    line-height: 40px;
+}
