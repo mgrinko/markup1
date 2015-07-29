@@ -5,6 +5,7 @@
 
 body {
     font: 9px Verdana, sans-serif;
+    color: #333;
 }
 
 #page {
@@ -29,7 +30,21 @@ header:after {
     position: absolute;
     left: 0;
     top: 128px;
+    padding: 2px 18px 7px 28px;
+    border-radius: 0 10px 10px 0;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
 }
+
+.company h1 {
+    font-size: 20px;
+    color: #001312;
+}
+
+.company-name {
+    color: #f90;
+}
+
 
 .slogan {
     font-size: 10px;
@@ -46,12 +61,13 @@ header:after {
     font-weight: bold;
     text-align: right;
     padding: 0;
+    color: #000;
 }
 
 .top-menu li {
     display: inline-block;
     background-color: #aeaeae;
-    border-radius: 5px 5px 0 0;
+    border-radius: 7px 7px 0 0;
     position: relative;
 }
 
@@ -63,7 +79,7 @@ header:after {
     right: 0;
     height: 15px;
     background-color: #c7c7c7;
-    border-radius: 5px;
+    border-radius: 7px;
 }
 
 .top-menu li a {
@@ -113,10 +129,6 @@ h3 {
     font-size: 12px;
 }
 
-h4 {
-    color: #c33;
-}
-
 .special-text {
     font-size: 10px;
     line-height: 16px;
@@ -138,16 +150,55 @@ h4 {
 
 .column-left {
     float: left;
-    padding: 20px 10px 0 20px;
+    padding: 20px 10px 0 0;
     width: 210px;
 }
 
 .column-left h3 {
-    margin-bottom: 10px;
+    padding-left: 20px;
+}
+.news-article {
+    padding: 18px 6px 0 20px;
+    border-bottom: solid 1px black;
+}
+
+.news-title {
+    color: #c33;
+    font-weight: bold;
+}
+
+.news-header:after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.news-title {
+    float: left;
+}
+
+.news-date {
+    float: right;
+}
+
+.news-more {
+    color: #c33;
+    font-weight: bold;
+}
+
+.column-left h3 {
 }
 
 .column-left h4 {
     margin-bottom: 11px;
+}
+
+.column-left p {
+    padding-bottom: 10px;
+}
+
+.column-left .news-more {
+    padding-bottom: 13px;
 }
 
 .column-center {
@@ -163,6 +214,11 @@ h4 {
     margin-bottom: 16px;
 }
 
+.column-center p {
+    margin-bottom: 17px;
+}
+
+
 .column-right {
     font-size: 11px;
     float: left;
@@ -174,8 +230,12 @@ h4 {
     margin-bottom: 16px;
 }
 
-.news-date {
-    float: right;
+.column-right p {
+    margin-bottom: 20px;
+}
+
+.column-right img {
+    margin-bottom: 18px;
 }
 
 footer ul {
