@@ -34,6 +34,7 @@ header:after {
     border-radius: 0 10px 10px 0;
     font-family: Tahoma, sans-serif;
     font-weight: bold;
+    box-shadow: 2px 3px;
 }
 
 .company h1 {
@@ -68,6 +69,7 @@ header:after {
     display: inline-block;
     background-color: #aeaeae;
     border-radius: 7px 7px 0 0;
+    margin-right: 2px;
     position: relative;
 }
 
@@ -80,6 +82,14 @@ header:after {
     height: 15px;
     background-color: #c7c7c7;
     border-radius: 7px;
+}
+
+.top-menu li:hover {
+    background-color: #6bb9f1;
+}
+
+.top-menu li:hover:before {
+    background-color: #9ed1f6;
 }
 
 .top-menu li a {
@@ -96,12 +106,12 @@ header:after {
     right: 0;
     list-style: none;
     font-weight: bold;
-    line-height: 20px;
+    line-height: 16px;
     text-align: right;
-    padding: 0;
+    padding: 0 5px 0 13px;
     background-color: #fff;
-    border-radius: 8px 1px 1px 6px;
-    padding-left: 13px;
+    border-radius: 8px 1px 1px 8px;
+    box-shadow: -1px 2px;
 }
 
 .top-menu-extra li {
@@ -129,14 +139,6 @@ h3 {
     font-size: 12px;
 }
 
-.special-text {
-    font-size: 10px;
-    line-height: 16px;
-    font-weight: bold;
-    text-decoration: underline;
-    color: #f90;
-}
-
 .note {
     font-size: 12px;
     color: #03c;
@@ -156,6 +158,7 @@ h3 {
 
 .column-left h3 {
     padding-left: 20px;
+    margin-bottom: -8px;
 }
 .news-article {
     padding: 18px 6px 0 20px;
@@ -186,9 +189,6 @@ h3 {
     font-weight: bold;
 }
 
-.column-left h3 {
-}
-
 .column-left h4 {
     margin-bottom: 11px;
 }
@@ -206,6 +206,7 @@ h3 {
     float: left;
     padding: 20px 10px 0 10px;
     width: 210px;
+    height: 100%;
     background-color: #f0f0f0;
     border-radius: 8px 8px 0 0;
 }
@@ -218,6 +219,14 @@ h3 {
     margin-bottom: 17px;
 }
 
+.special-text {
+    font-size: 10px;
+    line-height: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #f90;
+    padding-right: 35px;
+}
 
 .column-right {
     font-size: 11px;
