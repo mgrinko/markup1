@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 9px Verdana, sans-serif;
+    color: #333;
+}
+
+#page {
+    width: 770px;
+    background: url("img/main-background.jpg") no-repeat;
+    margin: 0 auto;
+}
+
+.page-header {
+    position: relative;
+    height: 200px;
+}
+
+.page-header:after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.company {
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 128px;
+    padding: 2px 18px 7px 28px;
+    border-radius: 0 10px 10px 0;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    box-shadow: 2px 3px;
+}
+
+.company h1 {
+    font-size: 20px;
+    color: #001312;
+}
+
+.company-name {
+    color: #f90;
+}
+
+
+.slogan {
+    font-size: 10px;
+    color: #666;
+}
+
+.top-menu {
+    position: relative;
+    right: 0;
+    top: 25px;
+    list-style: none;
+    font-size: 10px;
+    line-height: 25px;
+    font-weight: bold;
+    text-align: right;
+    padding: 0;
+    color: #000;
+}
+
+.top-menu li {
+    display: inline-block;
+    background-color: #aeaeae;
+    border-radius: 7px 7px 0 0;
+    margin-right: 2px;
+    position: relative;
+}
+
+.top-menu li:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 15px;
+    background-color: #c7c7c7;
+    border-radius: 7px;
+}
+
+.top-menu li:hover {
+    background-color: #6bb9f1;
+}
+
+.top-menu li:hover:before {
+    background-color: #9ed1f6;
+}
+
+.top-menu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px 0 11px;
+    position: relative;
+}
+
+.top-menu-extra {
+    position: absolute;
+    top: 84px;
+    right: 0;
+    list-style: none;
+    font-weight: bold;
+    line-height: 16px;
+    text-align: right;
+    padding: 0 5px 0 13px;
+    background-color: #fff;
+    border-radius: 8px 1px 1px 8px;
+    box-shadow: -1px 2px;
+}
+
+.top-menu-extra li {
+    display: inline-block;
+}
+
+.top-menu-extra li a {
+    color: #c00;
+    text-decoration: none;
+}
+
+#main {
+    margin-top: 35px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 12px;
+}
+
+.note {
+    font-size: 12px;
+    color: #03c;
+}
+
+.content:after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.column-left {
+    float: left;
+    padding: 20px 10px 0 0;
+    width: 210px;
+}
+
+.column-left h3 {
+    padding-left: 20px;
+}
+.news-article {
+    padding: 10px 6px 13px 20px;
+    border-bottom: solid 1px black;
+    margin-bottom: 8px;
+}
+
+.news-title {
+    color: #c33;
+    font-weight: bold;
+    max-width: 120px;
+    float: left;
+}
+
+.news-header:after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.news-date {
+    float: right;
+}
+
+.news-more {
+    color: #c33;
+    font-weight: bold;
+}
+
+.column-left h4 {
+    margin-bottom: 11px;
+}
+
+.column-left p {
+    padding-bottom: 10px;
+}
+
+.column-center {
+    font-size: 10px;
+    float: left;
+    padding: 20px 10px 0 10px;
+    width: 210px;
+    height: 100%;
+    background-color: #f0f0f0;
+    border-radius: 8px 8px 0 0;
+}
+
+.column-center h3 {
+    margin-bottom: 16px;
+}
+
+.column-center p {
+    margin-bottom: 17px;
+}
+
+.special-text {
+    font-size: 10px;
+    line-height: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #f90;
+    padding-right: 35px;
+}
+
+.column-right {
+    font-size: 11px;
+    float: left;
+    padding: 16px 20px 0 10px;
+    width: 270px;
+}
+
+.column-right h2 {
+    margin-bottom: 16px;
+}
+
+.column-right p {
+    margin-bottom: 20px;
+}
+
+.column-right img {
+    margin-bottom: 18px;
+}
+
+footer ul {
+    background: url("img/footer-background.gif")no-repeat;
+    list-style: none;
+    font-weight: bold;
+    line-height: 25px;
+    text-align: center;
+    padding: 0;
+    height: 40px;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 8px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.copyright {
+    text-align: center;
+    padding: 14px 0 15px 0;
+}
