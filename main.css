@@ -14,12 +14,12 @@ body {
     margin: 0 auto;
 }
 
-header {
+.page-header {
     position: relative;
     height: 200px;
 }
 
-header:after {
+.page-header:after {
     clear: both;
     content: '';
     display: block;
@@ -158,26 +158,24 @@ h3 {
 
 .column-left h3 {
     padding-left: 20px;
-    margin-bottom: -8px;
 }
 .news-article {
-    padding: 18px 6px 0 20px;
+    padding: 10px 6px 13px 20px;
     border-bottom: solid 1px black;
+    margin-bottom: 8px;
 }
 
 .news-title {
     color: #c33;
     font-weight: bold;
+    max-width: 120px;
+    float: left;
 }
 
 .news-header:after {
     clear: both;
     content: '';
     display: block;
-}
-
-.news-title {
-    float: left;
 }
 
 .news-date {
@@ -195,10 +193,6 @@ h3 {
 
 .column-left p {
     padding-bottom: 10px;
-}
-
-.column-left .news-more {
-    padding-bottom: 13px;
 }
 
 .column-center {
@@ -269,5 +263,5 @@ footer ul li a {
 
 .copyright {
     text-align: center;
-    line-height: 40px;
+    padding: 14px 0 15px 0;
 }
